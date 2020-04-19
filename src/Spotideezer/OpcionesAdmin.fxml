@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="449.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Spotideezer.OpcionesAdminController">
+   <children>
+      <Label fx:id="lblMenuAdmin" layoutX="143.0" layoutY="39.0" prefHeight="45.0" prefWidth="315.0" text="Menú de administrador" textFill="#15bc60">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnAgregarA" layoutX="159.0" layoutY="113.0" mnemonicParsing="false" onAction="#OnClickAgregarArtista" prefHeight="75.0" prefWidth="283.0" text="Agregar Artista" textFill="#1668ba" />
+      <Button fx:id="btnAgregarAl" layoutX="159.0" layoutY="215.0" mnemonicParsing="false" onAction="#OnClickAgregarAlbum" prefHeight="75.0" prefWidth="283.0" text="Agregar Álbum / EP" textFill="#1668ba" />
+      <Button fx:id="btnAuditoria" layoutX="159.0" layoutY="316.0" mnemonicParsing="false" onAction="#OnClickVerAuditoria" prefHeight="75.0" prefWidth="283.0" text="Ver Auditoría" textFill="#1668ba" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="449.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Spotideezer.SuscribirseController">
+   <children>
+      <Button fx:id="btnSuscribirse" layoutX="276.0" layoutY="315.0" mnemonicParsing="false" onAction="#OnClickSuscribirse" prefHeight="45.0" prefWidth="84.0" text="Suscribirse" textFill="#1668ba" />
+      <ComboBox fx:id="cmbTipoSUS" layoutX="255.0" layoutY="272.0" prefWidth="150.0" promptText="Seleccione" />
+      <Label fx:id="lblTipoSus" layoutX="70.0" layoutY="274.0" text="Tipo de suscripcion:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblNuevoUsu" layoutX="184.0" layoutY="29.0" prefHeight="45.0" prefWidth="209.0" text="Nuevo usuario" textFill="#15bc60">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblNombre" layoutX="149.0" layoutY="143.0" text="Nombre:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblNickname" layoutX="138.0" layoutY="107.0" text="Nickname:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblPaisSUS" layoutX="166.0" layoutY="222.0" text="Pais:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="cmbPaisSUS" layoutX="255.0" layoutY="220.0" prefWidth="150.0" promptText="Seleccione" />
+      <TextField fx:id="txtNickname" layoutX="255.0" layoutY="108.0" />
+      <TextField fx:id="txtNombre" layoutX="255.0" layoutY="144.0" />
+      <TextField fx:id="txtApellidos" layoutX="255.0" layoutY="182.0" />
+      <Label fx:id="lblApellidos" layoutX="145.0" layoutY="182.0" text="Apellidos:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblMostrarMSM" layoutX="70.0" layoutY="358.0" prefHeight="67.0" prefWidth="464.0" />
+   </children>
+</AnchorPane>

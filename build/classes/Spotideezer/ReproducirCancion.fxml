@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="356.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Spotideezer.ReproducirCancionController">
+   <children>
+      <Label fx:id="lblReproducirCancion" layoutX="170.0" layoutY="30.0" prefHeight="45.0" prefWidth="262.0" text="Reproducir Canción" textFill="#15bc60">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblTitulo" layoutX="232.0" layoutY="103.0" text="Título:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblInterprete" layoutX="198.0" layoutY="137.0" text="Intérprete:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblAlbum" layoutX="224.0" layoutY="173.0" text="Álbum:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblParaTitulo" layoutX="300.0" layoutY="103.0" prefHeight="27.0" prefWidth="211.0" />
+      <Label fx:id="lblParaInterprete" layoutX="300.0" layoutY="137.0" prefHeight="27.0" prefWidth="211.0" />
+      <Label fx:id="lblParaAlbum" layoutX="300.0" layoutY="173.0" prefHeight="27.0" prefWidth="211.0" />
+      <Button fx:id="btnMeGusta" layoutX="224.0" layoutY="239.0" mnemonicParsing="false" onAction="#OnClickMeGusta" text="                       " textFill="#1668ba">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

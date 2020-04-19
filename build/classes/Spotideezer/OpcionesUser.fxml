@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="449.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Spotideezer.OpcionesUserController">
+   <children>
+      <Button fx:id="btnBuscar" layoutX="159.0" layoutY="125.0" mnemonicParsing="false" onAction="#OnClickBuscarCancion" prefHeight="75.0" prefWidth="283.0" text="Buscar Canción" textFill="#1668ba" />
+      <Button fx:id="btnModificar" layoutX="159.0" layoutY="234.0" mnemonicParsing="false" onAction="#OnClickModificarLista" prefHeight="75.0" prefWidth="283.0" text="Modificar Lista de Reproducción" textFill="#1668ba" />
+      <Button fx:id="btnRepro" layoutX="159.0" layoutY="345.0" mnemonicParsing="false" onAction="#OnClickReproducirCancion" prefHeight="75.0" prefWidth="283.0" text="Reproducir Canción" textFill="#1668ba" />
+      <Label fx:id="lblMenuUser" layoutX="186.0" layoutY="48.0" prefHeight="45.0" prefWidth="228.0" text="Menú de usuario" textFill="#15bc60">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

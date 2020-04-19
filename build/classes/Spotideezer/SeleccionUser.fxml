@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="182.0" prefWidth="279.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Spotideezer.SeleccionUserController">
+   <children>
+      <ComboBox fx:id="cmbUsuarios" layoutX="66.0" layoutY="65.0" prefWidth="150.0" promptText="Seleccione" />
+      <Button fx:id="btnIngresar" layoutX="96.0" layoutY="119.0" mnemonicParsing="false" onAction="#OnClickIngresar" prefHeight="33.0" prefWidth="71.0" text="Ingresar" textFill="#1668ba" />
+      <Label fx:id="lblUsuario" layoutX="86.0" layoutY="7.0" prefHeight="45.0" prefWidth="109.0" text="Usuario" textFill="#15bc60">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

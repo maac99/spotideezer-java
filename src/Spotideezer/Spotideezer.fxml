@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="548.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Spotideezer.SpotideezerController">
+   <children>
+      <Label fx:id="lblBienvenida" layoutX="130.0" layoutY="14.0" prefHeight="95.0" prefWidth="540.0" text="Bienvenido a Spoteezer" textFill="#15bc60">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblIngreso" layoutX="320.0" layoutY="130.0" prefHeight="26.0" prefWidth="160.0" text="Ingresar como:">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnUser" layoutX="328.0" layoutY="256.0" mnemonicParsing="false" onAction="#OnClickUsuario" prefHeight="62.0" prefWidth="145.0" text="Usuario" textFill="#1668ba" />
+      <Button fx:id="btnAdmin" layoutX="328.0" layoutY="180.0" mnemonicParsing="false" onAction="#OnClickAdministrador" prefHeight="62.0" prefWidth="145.0" text="Administrador" textFill="#1668ba" />
+      <Label fx:id="lblCrearCuenta" layoutX="305.0" layoutY="362.0" prefHeight="35.0" prefWidth="194.0" text="Crear una cuenta:">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnSus" layoutX="328.0" layoutY="429.0" mnemonicParsing="false" onAction="#OnClickSuscribirse" prefHeight="62.0" prefWidth="145.0" text="Suscribirse" textFill="#1668ba" />
+   </children>
+</AnchorPane>

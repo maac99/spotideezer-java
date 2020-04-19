@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="404.0" prefWidth="660.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Spotideezer.AgregarAlbumEPController">
+   <children>
+      <Label fx:id="lblAgregarAlbum" layoutX="204.0" layoutY="25.0" prefHeight="45.0" prefWidth="296.0" text="Agregar nuevo álbum" textFill="#15bc60">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblTipo" layoutX="152.0" layoutY="109.0" text="Tipo:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblNombreAlbum" layoutX="122.0" layoutY="156.0" text="Nombre:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblFechaLanamiento1" layoutX="14.0" layoutY="201.0" text="Fecha de lanzamiento:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblEmpresa" layoutX="120.0" layoutY="244.0" text="Empresa:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="cmbTipo" layoutX="204.0" layoutY="110.0" prefWidth="150.0" promptText="Seleccione" />
+      <TextField fx:id="txtNombreAlbum" layoutX="204.0" layoutY="158.0" />
+      <DatePicker fx:id="dtpFechaLanzamiento" layoutX="203.0" layoutY="202.0" prefHeight="25.0" prefWidth="150.0" promptText="Seleccione" />
+      <ComboBox fx:id="cmbEmpresa" layoutX="203.0" layoutY="245.0" prefWidth="150.0" promptText="Seleccione" />
+      <TableView fx:id="tblCanciones" layoutX="395.0" layoutY="116.0" prefHeight="182.0" prefWidth="224.0">
+        <columns>
+          <TableColumn fx:id="colTitulo" prefWidth="223.0" text="Título" />
+        </columns>
+      </TableView>
+      <Button fx:id="btnAgregarCancion" layoutX="449.0" layoutY="318.0" mnemonicParsing="false" onAction="#OnClickAgregarCancion" text="Agregar canción" textFill="#1668ba" />
+      <Button fx:id="btnGuardarAlbum" layoutX="144.0" layoutY="308.0" mnemonicParsing="false" onAction="#OnClickGuardar" prefHeight="45.0" prefWidth="118.0" text="Guardar álbum" textFill="#1668ba" />
+      <Label fx:id="lblCancionesAlbum" layoutX="418.0" layoutY="82.0" text="Canciones en el álbum">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnCancelarOperacion" layoutX="526.0" layoutY="365.0" mnemonicParsing="false" onAction="#OnClickCancelarOperacion" text="Cancelar Operación" textFill="RED" />
+   </children>
+</AnchorPane>

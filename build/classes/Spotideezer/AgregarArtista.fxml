@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="656.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Spotideezer.AgregarArtistaController">
+   <children>
+      <Label fx:id="lblAgregar" layoutX="180.0" layoutY="37.0" prefHeight="45.0" prefWidth="296.0" text="Agregar nuevo artista" textFill="#15bc60">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblNombreReal" layoutX="196.0" layoutY="122.0" text="Nombre real:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnGuardar" layoutX="286.0" layoutY="272.0" mnemonicParsing="false" onAction="#OnClickGuardar" text="Guardar" textFill="#1668ba">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <TextField fx:id="txtNombreArt" layoutX="319.0" layoutY="163.0" />
+      <TextField fx:id="txtNombreReal" layoutX="319.0" layoutY="116.0" />
+      <ComboBox fx:id="cmbPais" layoutX="319.0" layoutY="208.0" prefWidth="150.0" promptText="Seleccione" />
+      <Label fx:id="lblPais" layoutX="264.0" layoutY="214.0" text="Pais:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblNombreArt" layoutX="162.0" layoutY="169.0" text="Nombre artistico:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblAgregado" layoutX="98.0" layoutY="325.0" prefHeight="21.0" prefWidth="493.0" />
+   </children>
+</AnchorPane>

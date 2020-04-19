@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="565.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Spotideezer.AuditoriaController">
+   <children>
+      <Label fx:id="lblAuditoria" layoutX="239.0" layoutY="27.0" prefHeight="45.0" prefWidth="123.0" text="Auditoría" textFill="#15bc60">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <TableView fx:id="tableAuditoria" layoutX="41.0" layoutY="84.0" prefHeight="446.0" prefWidth="520.0">
+        <columns>
+          <TableColumn fx:id="colEntidad" prefWidth="112.0" text="Entidad" />
+          <TableColumn fx:id="colID" minWidth="6.0" prefWidth="130.0" text="ID" />
+            <TableColumn fx:id="colOperacion" prefWidth="63.0" text="Operacion" />
+            <TableColumn fx:id="colFecha" prefWidth="194.0" text="Fecha" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
